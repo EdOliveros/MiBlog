@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+.header-container span h1 {
+    font-weight: bold;
+}
+.header-container ul {
+    list-style: none;
+    display: flex;
+}
+.header-container ul li {
+    margin-right: 1rem;
+}
+.header-container ul li a {
+    text-decoration: none;
+    color: black; 
+}
+/* main */
+main {
+    margin-top: 6rem;
+    padding: 2rem;
+    display: flex;
+}
+aside {
+    width: 20vw;
+}
+.categorias-container .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+}
+.categorias-container input {
+    width: 20vw;
+    border-radius: 1rem;
+    border: 0.1rem #848484 solid;
+    padding: 0.3rem;
+}
+.categorias-container h3 {
+    font-size: 1.5rem;
+}
+.categorias-container ul {
+    list-style: none;
+}
+.categorias-container ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+.main {
+    width: 80vw;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+}
+.main .post-container {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+}
+.main img {
+    width: 20rem;
+    height: 18rem;
+    border-radius:  1rem 1rem 0 0;
+    object-fit: cover;
+}
