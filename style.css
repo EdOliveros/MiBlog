@@ -10,6 +10,8 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Open Sans', sans-serif;
+    background-color: #e8f1ec;
+    color: #2f4862;
 }
 
 /* header */
@@ -20,8 +22,8 @@ body {
     padding: 2rem;
     position: fixed;
     top: 0;
-    background-color: rgb(255, 255, 255);
-    font-size: 1.3rem;
+    background-color: #e8f1ec;
+    font-size: 1.5rem;
 }
 .header-container span h1 {
     font-weight: bold;
@@ -81,11 +83,43 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(202, 202, 202);
+    background-color: #fafafa;
 }
 .main img {
     width: 20rem;
     height: 18rem;
     border-radius:  1rem 1rem 0 0;
     object-fit: cover;
+}
+
+/* footer */
+footer {
+    display: flex;
+    width: 100%;
+    height: 23rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem;
+}
+footer h3 {
+    font-size: 1.5rem;
+}
+footer .derechos {
+    font-size: 1.3rem;
+}
+footer .aboutUs-footer {
+    font-size: 1.5rem;
+}
+footer .other {
+    font-size: 1.5rem;
+}
+footer ul {
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+footer .contac-us p{
+    font-size: 1.4rem;
 }
